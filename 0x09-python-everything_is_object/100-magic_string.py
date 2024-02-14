@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-magic_string = "Best school"
-
-for i in range(n):
-    print(magic_string())
+def magic_string(kenya=[0]):
+    kenya[0] = kenya[0] + 1
+    return ("Nairobi, " * kenya[0])[:-2]
